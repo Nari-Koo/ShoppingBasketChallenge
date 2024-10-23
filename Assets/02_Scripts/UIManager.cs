@@ -24,7 +24,11 @@ public class UIManager : MonoBehaviour
 
     private void onExitButtonClick()
     {
-
+#if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+#else
+        Application.Quit();
+#endif
     }
 
 }
