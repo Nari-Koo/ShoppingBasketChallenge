@@ -19,7 +19,7 @@ public class UIManager : MonoBehaviour
 
     private void onLevel1ButtonClick()
     {
-        SceneManager.LoadScene("1. Grocery Store");
+        SceneManager.LoadScene("2. Level 1");
     }
 
     private void onExitButtonClick()
