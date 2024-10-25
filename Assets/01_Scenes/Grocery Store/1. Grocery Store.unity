@@ -597,6 +597,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2173380153093608495, guid: 1a5915fd06db56645afb44c7b2892857, type: 3}
       insertIndex: -1
       addedObject: {fileID: 16273674}
+    - targetCorrespondingSourceObject: {fileID: 2173380153093608495, guid: 1a5915fd06db56645afb44c7b2892857, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 16273678}
   m_SourcePrefab: {fileID: 100100000, guid: 1a5915fd06db56645afb44c7b2892857, type: 3}
 --- !u!4 &16273672 stripped
 Transform:
@@ -658,6 +661,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &16273678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 16273673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab437c76114dae4a868b8e795a59286, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  productName: WaterBottle
+  price: 1
 --- !u!4 &22036432 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 170755074193186669, guid: 966d4717e8f3a2243addd11cf5c74630, type: 3}
@@ -690,7 +707,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 24638260}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -1.06}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -699,7 +716,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 5.23, y: 0.39}
+  m_AnchoredPosition: {x: 5.23, y: -0.92}
   m_SizeDelta: {x: 0.8, y: 0.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &24638262
@@ -3620,6 +3637,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2173380153093608495, guid: 1a5915fd06db56645afb44c7b2892857, type: 3}
       insertIndex: -1
       addedObject: {fileID: 94401457}
+    - targetCorrespondingSourceObject: {fileID: 2173380153093608495, guid: 1a5915fd06db56645afb44c7b2892857, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 94401461}
   m_SourcePrefab: {fileID: 100100000, guid: 1a5915fd06db56645afb44c7b2892857, type: 3}
 --- !u!4 &94401455 stripped
 Transform:
@@ -3681,6 +3701,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &94401461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 94401456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab437c76114dae4a868b8e795a59286, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  productName: WaterBottle
+  price: 1
 --- !u!1001 &98143925
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4686,6 +4720,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2173380153093608495, guid: 1a5915fd06db56645afb44c7b2892857, type: 3}
       insertIndex: -1
       addedObject: {fileID: 140042664}
+    - targetCorrespondingSourceObject: {fileID: 2173380153093608495, guid: 1a5915fd06db56645afb44c7b2892857, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 140042668}
   m_SourcePrefab: {fileID: 100100000, guid: 1a5915fd06db56645afb44c7b2892857, type: 3}
 --- !u!4 &140042662 stripped
 Transform:
@@ -4747,6 +4784,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &140042668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140042663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab437c76114dae4a868b8e795a59286, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  productName: WaterBottle
+  price: 1
 --- !u!1001 &142023234
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9111,6 +9162,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2173380153093608495, guid: 1a5915fd06db56645afb44c7b2892857, type: 3}
       insertIndex: -1
       addedObject: {fileID: 221020498}
+    - targetCorrespondingSourceObject: {fileID: 2173380153093608495, guid: 1a5915fd06db56645afb44c7b2892857, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 221020502}
   m_SourcePrefab: {fileID: 100100000, guid: 1a5915fd06db56645afb44c7b2892857, type: 3}
 --- !u!4 &221020496 stripped
 Transform:
@@ -9172,6 +9226,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &221020502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221020497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab437c76114dae4a868b8e795a59286, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  productName: WaterBottle
+  price: 1
 --- !u!43 &229757245
 Mesh:
   m_ObjectHideFlags: 0
@@ -9667,6 +9735,116 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &261468968
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 261468972}
+  - component: {fileID: 261468971}
+  - component: {fileID: 261468970}
+  - component: {fileID: 261468969}
+  m_Layer: 0
+  m_Name: Cylinder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!136 &261468969
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261468968}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5000001
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!23 &261468970
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261468968}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &261468971
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261468968}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &261468972
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261468968}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 12.95, y: 0.2, z: 8.31}
+  m_LocalScale: {x: 1.19277, y: 0.02160818, z: 1.19277}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &264950697
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9919,8 +10097,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -170.6936, y: -37.1754}
-  m_SizeDelta: {x: 341.3872, y: 74.3508}
+  m_AnchoredPosition: {x: -69.303894, y: -38.60341}
+  m_SizeDelta: {x: 138.6078, y: 77.2068}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &284382826
 MonoBehaviour:
@@ -9935,7 +10113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 0.8662381, b: 0.35283017, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -14224,6 +14402,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2173380153093608495, guid: 1a5915fd06db56645afb44c7b2892857, type: 3}
       insertIndex: -1
       addedObject: {fileID: 450451292}
+    - targetCorrespondingSourceObject: {fileID: 2173380153093608495, guid: 1a5915fd06db56645afb44c7b2892857, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 450451296}
   m_SourcePrefab: {fileID: 100100000, guid: 1a5915fd06db56645afb44c7b2892857, type: 3}
 --- !u!4 &450451290 stripped
 Transform:
@@ -14285,6 +14466,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &450451296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 450451291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab437c76114dae4a868b8e795a59286, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  productName: WaterBottle
+  price: 1
 --- !u!1 &455333497
 GameObject:
   m_ObjectHideFlags: 0
@@ -17292,6 +17487,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 589643564}
+  - component: {fileID: 589643565}
   m_Layer: 0
   m_Name: WaterBottle
   m_TagString: Untagged
@@ -17324,6 +17520,20 @@ Transform:
   - {fileID: 450451290}
   m_Father: {fileID: 9110482523436938707}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &589643565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 589643563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab437c76114dae4a868b8e795a59286, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  productName: WaterBottle
+  price: 1
 --- !u!43 &594258868
 Mesh:
   m_ObjectHideFlags: 0
@@ -22122,6 +22332,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 284382825}
+  - {fileID: 1520096140}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -26476,6 +26687,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2173380153093608495, guid: 1a5915fd06db56645afb44c7b2892857, type: 3}
       insertIndex: -1
       addedObject: {fileID: 915896801}
+    - targetCorrespondingSourceObject: {fileID: 2173380153093608495, guid: 1a5915fd06db56645afb44c7b2892857, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 915896805}
   m_SourcePrefab: {fileID: 100100000, guid: 1a5915fd06db56645afb44c7b2892857, type: 3}
 --- !u!4 &915896799 stripped
 Transform:
@@ -26537,6 +26751,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &915896805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 915896800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab437c76114dae4a868b8e795a59286, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  productName: WaterBottle
+  price: 1
 --- !u!1001 &918314942
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32243,7 +32471,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 104.7983, y: 42.3839}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1202168418
 MonoBehaviour:
@@ -32288,7 +32516,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -32311,9 +32539,9 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -32690,6 +32918,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2173380153093608495, guid: 1a5915fd06db56645afb44c7b2892857, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1207566246}
+    - targetCorrespondingSourceObject: {fileID: 2173380153093608495, guid: 1a5915fd06db56645afb44c7b2892857, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1207566250}
   m_SourcePrefab: {fileID: 100100000, guid: 1a5915fd06db56645afb44c7b2892857, type: 3}
 --- !u!4 &1207566244 stripped
 Transform:
@@ -32751,6 +32982,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1207566250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207566245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab437c76114dae4a868b8e795a59286, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  productName: WaterBottle
+  price: 1
 --- !u!1001 &1212189062
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33694,6 +33939,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2173380153093608495, guid: 1a5915fd06db56645afb44c7b2892857, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1256913347}
+    - targetCorrespondingSourceObject: {fileID: 2173380153093608495, guid: 1a5915fd06db56645afb44c7b2892857, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1256913351}
   m_SourcePrefab: {fileID: 100100000, guid: 1a5915fd06db56645afb44c7b2892857, type: 3}
 --- !u!4 &1256913345 stripped
 Transform:
@@ -33755,6 +34003,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1256913351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256913346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab437c76114dae4a868b8e795a59286, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  productName: WaterBottle
+  price: 1
 --- !u!1 &1258052313
 GameObject:
   m_ObjectHideFlags: 0
@@ -35812,6 +36074,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2173380153093608495, guid: 1a5915fd06db56645afb44c7b2892857, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1355524059}
+    - targetCorrespondingSourceObject: {fileID: 2173380153093608495, guid: 1a5915fd06db56645afb44c7b2892857, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1355524063}
   m_SourcePrefab: {fileID: 100100000, guid: 1a5915fd06db56645afb44c7b2892857, type: 3}
 --- !u!4 &1355524057 stripped
 Transform:
@@ -35873,6 +36138,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1355524063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1355524058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab437c76114dae4a868b8e795a59286, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  productName: WaterBottle
+  price: 1
 --- !u!1001 &1359002759
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37369,6 +37648,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2173380153093608495, guid: 1a5915fd06db56645afb44c7b2892857, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1421250722}
+    - targetCorrespondingSourceObject: {fileID: 2173380153093608495, guid: 1a5915fd06db56645afb44c7b2892857, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1421250726}
   m_SourcePrefab: {fileID: 100100000, guid: 1a5915fd06db56645afb44c7b2892857, type: 3}
 --- !u!4 &1421250720 stripped
 Transform:
@@ -37430,6 +37712,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1421250726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421250721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab437c76114dae4a868b8e795a59286, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  productName: WaterBottle
+  price: 1
 --- !u!1001 &1423105366
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39023,6 +39319,81 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5875214725196887813, guid: d94f026e935482e43a97338f26b326a1, type: 3}
   m_PrefabInstance: {fileID: 1518449437}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1520096139
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1520096140}
+  - component: {fileID: 1520096142}
+  - component: {fileID: 1520096141}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1520096140
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520096139}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 756189838}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 18.9536, y: -168.4766}
+  m_SizeDelta: {x: -277.9865, y: -336.9531}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1520096141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520096139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 89cb99e3e22696848a1cbce7b320f520, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1520096142
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520096139}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1520364466
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43841,6 +44212,81 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1767938265
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1767938266}
+  - component: {fileID: 1767938268}
+  - component: {fileID: 1767938267}
+  m_Layer: 5
+  m_Name: WaterBottlePrice
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1767938266
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767938265}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: -2.428}
+  m_LocalScale: {x: 0.0044666617, y: 0.0044666617, z: 0.0044666617}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1829064822}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 13.884, y: 1.917}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1767938267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767938265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 26939fc15c4d9f14bb4a8ce1c435170d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1767938268
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767938265}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1768388058
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44158,6 +44604,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 24638261}
+  - {fileID: 1767938266}
   m_Father: {fileID: 432581949}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -59146,3 +59593,4 @@ SceneRoots:
   - {fileID: 1240771925}
   - {fileID: 1513213099}
   - {fileID: 756189838}
+  - {fileID: 261468972}
