@@ -9,11 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/01_Scenes/Grocery Store/1. Grocery Store.unity
-    guid: 33a927fd0f7f9b442bd70faacb282be5
-  - enabled: 1
-    path: Assets/01_Scenes/2. Intro.unity
+    path: Assets/01_Scenes/1. Lobby.unity
     guid: 15910caf0daf5e34e99d90f16e7674ab
+  - enabled: 1
+    path: Assets/01_Scenes/Grocery Store/2. Level 1.unity
+    guid: 33a927fd0f7f9b442bd70faacb282be5
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 53a1eaecd435d434bb42c51ba76bd660, type: 2}
