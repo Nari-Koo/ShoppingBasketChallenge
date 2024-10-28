@@ -10,6 +10,7 @@ public class Cart : MonoBehaviour
     public void AddProduct(Product product)
     {
         productsInCart.Add(product);
+        //Debug.Log(product.productName + "이(가) 장바구니에 추가되었습니다.");
     }
 
     // 장바구니에 담긴 모든 상품들의 총 가격을 계산하는 함수
@@ -27,5 +28,6 @@ public class Cart : MonoBehaviour
     public void ClearCart()
     {
         productsInCart.Clear();
+        Debug.Log("장바구니가 비워졌습니다.");
     }
 }
