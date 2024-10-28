@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 1358775997658098361}
   - component: {fileID: 5473280178706002881}
   - component: {fileID: 3412197356694225178}
-  - component: {fileID: 4155479464745004353}
   - component: {fileID: 888507671627062276}
   m_Layer: 0
   m_Name: Chips_Low__150_Tris_
@@ -88,28 +87,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &4155479464745004353
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3701018076392276101}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300004, guid: 81fb6a5c67691cd46a393190b476ed51, type: 3}
 --- !u!54 &888507671627062276
 Rigidbody:
   m_ObjectHideFlags: 0
