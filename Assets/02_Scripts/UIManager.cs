@@ -7,8 +7,6 @@ public class UIManager : MonoBehaviour
 {
 
     [SerializeField] private Button level1Button;
-    [SerializeField] private Button level2Button;
-    [SerializeField] private Button level3Button;
     [SerializeField] private Button exitButton;
 
     void Start()

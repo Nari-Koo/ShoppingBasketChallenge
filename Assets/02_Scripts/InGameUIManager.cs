@@ -41,7 +41,7 @@ public class InGameUIManager : MonoBehaviour
         if (Cart.Instance != null)
         {
             float totalPrice = Cart.Instance.CalculateTotalPrice();
-            Debug.Log("총 가격: " + totalPrice + "원");
+            Debug.Log("총 가격: " + totalPrice + "달러");
         }
         else
         {
