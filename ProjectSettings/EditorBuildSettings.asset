@@ -15,7 +15,9 @@ EditorBuildSettings:
     path: Assets/01_Scenes/Grocery Store/2. Level 1.unity
     guid: 33a927fd0f7f9b442bd70faacb282be5
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 7108b14f57196574e94f8de8acae2977, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 4f50e9cb066f3e34ea845ce3dd6a1643, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 53a1eaecd435d434bb42c51ba76bd660, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 679bdcffddb501b42b1d45ae7ace46dc, type: 2}
   m_UseUCBPForAssetBundles: 0

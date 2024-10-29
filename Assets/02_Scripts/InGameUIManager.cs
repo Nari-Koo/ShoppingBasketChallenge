@@ -3,6 +3,7 @@ using TMPro;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Threading.Tasks;
+using System;
 
 public class InGameUIManager : MonoBehaviour
 {
@@ -68,8 +69,20 @@ public class InGameUIManager : MonoBehaviour
         else
         {
             ChangeText("Fail");
-            Cart.Instance.ClearCart();
+            RestartGame();  // 실패 시 게임 재시작
         }
+    }
+
+    private void RestartGame()
+    {
+        if (Cart.Instance != null)
+        {
+            Cart.Instance.ClearCart();  // 씬 재시작 전에 장바구니 초기화
+        }
+        
+        // 현재 활성화된 씬을 다시 로드하여 게임을 재시작
+        Scene currentScene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(currentScene.name);
     }
 
     private bool CheckInstanceValidity()
