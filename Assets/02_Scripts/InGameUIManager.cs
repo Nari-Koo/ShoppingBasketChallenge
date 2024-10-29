@@ -2,6 +2,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Threading.Tasks;
 
 public class InGameUIManager : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class InGameUIManager : MonoBehaviour
     [SerializeField] private Button doneButton;
     [SerializeField] private TMP_Text PopUp;
 
-    private bool isProcessing = false;  // 중복 클릭 방지용
+    private bool isProcessing = false;
 
     void Start()
     {
@@ -18,22 +19,25 @@ public class InGameUIManager : MonoBehaviour
 
     private void SetupButtonListeners()
     {
-        // 중복 이벤트 리스너 제거 및 리스너 추가
-        doneButton.onClick.RemoveAllListeners();
-        doneButton.onClick.AddListener(() => HandleButtonClick(onDoneButtonClick));
-
-        exitButton.onClick.RemoveAllListeners();
-        exitButton.onClick.AddListener(() => HandleButtonClick(onExitButtonClick));
+        SetupButton(doneButton, onDoneButtonClick);
+        SetupButton(exitButton, onExitButtonClick);
     }
 
-    private void HandleButtonClick(System.Action action)
+    private void SetupButton(Button button, System.Action action)
     {
-        // 버튼이 여러 번 눌리지 않도록 처리
+        button.onClick.RemoveAllListeners();
+        button.onClick.AddListener(() => HandleButtonClick(action));
+    }
+
+    private async void HandleButtonClick(System.Action action)
+    {
         if (isProcessing) return;
         isProcessing = true;
 
         action.Invoke();
-        isProcessing = false;  // 처리 완료 후 해제
+        await Task.Delay(500);  // 버튼 처리 후 잠시 대기
+
+        isProcessing = false;
     }
 
     private void CalTotalPrice()
@@ -64,7 +68,7 @@ public class InGameUIManager : MonoBehaviour
         else
         {
             ChangeText("Fail");
-            Cart.Instance.ClearCart();  // 실패 시 장바구니 비우기
+            Cart.Instance.ClearCart();
         }
     }
 
@@ -90,14 +94,15 @@ public class InGameUIManager : MonoBehaviour
         }
     }
 
-    public void ChangeSceneWithInvoke()
+    public async void ChangeSceneWithInvoke()
     {
-        Invoke(nameof(LoadNextScene), 3.0f);  // 3초 후에 LoadNextScene 호출
+        await Task.Delay(3000);  // 3초 대기
+        LoadNextScene();
     }
 
     private void LoadNextScene()
     {
-        SceneManager.LoadScene("1. Lobby");  // 씬 전환
+        SceneManager.LoadScene("1. Lobby");
     }
 
     private void onExitButtonClick()
