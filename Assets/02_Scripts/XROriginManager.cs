@@ -50,7 +50,7 @@ public class XROriginManager : MonoBehaviour
         }
         else
         {
-            Debug.LogError("XR Loader를 시작할 수 없습니다. 플랫폼별 XR 설정을 확인하세요.");
+
         }
     }
 

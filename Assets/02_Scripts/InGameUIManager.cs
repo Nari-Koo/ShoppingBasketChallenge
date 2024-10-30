@@ -64,12 +64,14 @@ public class InGameUIManager : MonoBehaviour
         if (totalPrice == RandomPrice.Instance.randomNumber)
         {
             ChangeText("Clear!");
+            RandomPrice.ResetPriceFlag();  // 가격 유지 플래그 초기화
             ChangeSceneWithInvoke();
         }
         else
         {
             ChangeText("Fail");
-            RestartGame();  // 실패 시 게임 재시작
+            RandomPrice.shouldKeepPrice = true;  // 실패 시 가격 유지
+            RestartGame();  // 게임 재시작
         }
     }
 
@@ -79,7 +81,7 @@ public class InGameUIManager : MonoBehaviour
         {
             Cart.Instance.ClearCart();  // 씬 재시작 전에 장바구니 초기화
         }
-        
+
         // 현재 활성화된 씬을 다시 로드하여 게임을 재시작
         Scene currentScene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(currentScene.name);
@@ -120,6 +122,8 @@ public class InGameUIManager : MonoBehaviour
 
     private void onExitButtonClick()
     {
-        LoadNextScene();
+        RandomPrice.ResetPriceFlag();  // 가격 유지 플래그 초기화
+        LoadNextScene();  // 로비 씬으로 이동
     }
+
 }
